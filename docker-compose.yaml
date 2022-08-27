@@ -17,10 +17,10 @@ networks:
 services:
 
   orderer.barclays.com:
+    container_name: orderer.barclays.com
     extends:
       file:   base/docker-compose-base.yaml
       service: orderer.barclays.com
-    container_name: orderer.barclays.com
     networks:
       - byfn
 
