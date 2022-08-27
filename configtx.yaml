@@ -157,7 +157,7 @@ Profiles:
                     - *Bank1
                     - *Bank2
                     - *Nonbank
-    ChannelBank:
+    Channelbank:
         Consortium: SampleConsortium
         <<: *ChannelDefaults
         Application:
@@ -167,7 +167,7 @@ Profiles:
                 - *Bank2
             Capabilities:
                 <<: *ApplicationCapabilities
-    ChannelCBDC:
+    Channelcbdc:
         Consortium: SampleConsortium
         <<: *ChannelDefaults
         Application:
