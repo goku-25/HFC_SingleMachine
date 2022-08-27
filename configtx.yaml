@@ -41,7 +41,7 @@ Organizations:
     - &Bank2
         Name: Bank2MSP
         ID: Bank2MSP
-        MSPDir: crypto-config/peerOrganizations/bank1.barclays.com/msp
+        MSPDir: crypto-config/peerOrganizations/bank2.barclays.com/msp
         Policies:
             Readers:
                 Type: Signature
